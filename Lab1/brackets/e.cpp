@@ -27,10 +27,7 @@ int main()
     int i = 0;
     int cnt = 0;
     node *first = new node[1];
-    //int b = scanf("%c", &c);
-    //if (b <= 0)
-      //return 0;
-    //int fl = 0;
+    
     while (s[i] != 0)
     {
       if (cnt > 0 && ((first->val == '[' && s[i] == ']') || (first->val == '(' && s[i] == ')')))
